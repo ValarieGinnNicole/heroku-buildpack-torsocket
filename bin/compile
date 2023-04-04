@@ -31,7 +31,6 @@ function indent() {
 
 APT_CACHE_DIR="$CACHE_DIR/apt/cache"
 APT_STATE_DIR="$CACHE_DIR/apt/state"
-cp -a binaries-$STACK/* "$CACHE_DIR/apt/sources"
 APT_SOURCELIST_DIR="$CACHE_DIR/apt/sources"   # place custom sources.list here
 
 APT_SOURCES="$APT_SOURCELIST_DIR/sources.list"
